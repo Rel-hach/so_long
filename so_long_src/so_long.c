@@ -6,7 +6,7 @@
 /*   By: rel-hach <rel-hach@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/14 01:19:55 by rel-hach          #+#    #+#             */
-/*   Updated: 2022/11/19 01:45:39 by rel-hach         ###   ########.fr       */
+/*   Updated: 2022/11/20 00:12:27 by rel-hach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,4 +43,5 @@ int	main(int ac, char **av)
 	ft_check_extention(av[1]);
 	ft_variabes_initializer(&g);
 	read_map(av[1], &g);
+	ft_check_map(g);
 }
